@@ -1,0 +1,30 @@
+{
+  "name": "markethub",
+  "version": "1.0.0",
+  "description": "This a Rest API for buying and selling our goods.",
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "etc."
+  ],
+  "homepage": "https://github.com/Amirhossein-Olyanasabnarab/MarketHub#readme",
+  "bugs": {
+    "url": "https://github.com/Amirhossein-Olyanasabnarab/MarketHub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amirhossein-Olyanasabnarab/MarketHub.git"
+  },
+  "license": "ISC",
+  "author": "Amir Hossein Olyanasab Narab",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1"
+  }
+}
