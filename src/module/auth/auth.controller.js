@@ -1,5 +1,8 @@
+const autoBind = require("auto-bind");
 class AuthController{
-    constructor(){}
+    constructor(){
+        autoBind(this);
+    }
 }
 
 module.exports ={
