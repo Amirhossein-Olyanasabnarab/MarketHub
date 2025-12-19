@@ -1,0 +1,35 @@
+{
+  "name": "markethub",
+  "version": "1.0.0",
+  "description": "It's a web application about buying and selling your goods; in fact, it was made with Express.js.",
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "etc."
+  ],
+  "homepage": "https://github.com/Amirhossein-Olyanasabnarab/MarketHub#readme",
+  "bugs": {
+    "url": "https://github.com/Amirhossein-Olyanasabnarab/MarketHub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amirhossein-Olyanasabnarab/MarketHub.git"
+  },
+  "license": "ISC",
+  "author": "Amir Hossein Olyanasab Narab",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^13.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
