@@ -1,0 +1,36 @@
+{
+  "name": "markethub",
+  "version": "1.0.0",
+  "description": "A scalable classified ads platform inspired by Divar, built with Node.js, Express.js, and MongoDB. Designed with layered architecture (Controller-Service-Repository), JWT authentication, input validation, and clean code principles",
+  "keywords": [
+    "Node.JS",
+    "Express.JS",
+    "MongoDB",
+    "Mongoose",
+    "etc"
+  ],
+  "homepage": "https://github.com/Amirhossein-Olyanasabnarab/MarketHub#readme",
+  "bugs": {
+    "url": "https://github.com/Amirhossein-Olyanasabnarab/MarketHub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amirhossein-Olyanasabnarab/MarketHub.git"
+  },
+  "license": "ISC",
+  "author": "Amir Hossein Olyanasab",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
